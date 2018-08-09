@@ -29,7 +29,7 @@ function deleteFromObjectByKey(object, key) {
     return object
 
   // var newObject = object;
-  console.log(newObject)
+  // console.log(newObject)
   console.log(object)
   // delete newObject[key]
   return newObject;
