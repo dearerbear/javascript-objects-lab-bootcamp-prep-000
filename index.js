@@ -38,3 +38,8 @@ function deleteFromObjectByKey(object, key) {
 deleteFromObjectByKey(sample, "Ursula")
 console.log(sample)
 console.log(sample.Ursula)
+
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key]
+  return object
+}
