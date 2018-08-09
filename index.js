@@ -25,5 +25,5 @@ function deleteFromObjectByKey(object, key) {
   // console.log(newObject)
   delete newObject[key]
   return newObject;
-  
+
 }
