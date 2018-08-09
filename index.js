@@ -36,7 +36,3 @@ function deleteFromObjectByKey(object, key) {
 }
 
 deleteFromObjectByKey(sample, "Ursula")
-
-function deleteFromObjectByKey(object, key) {
-
-}
