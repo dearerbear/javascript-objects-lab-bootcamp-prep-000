@@ -21,6 +21,8 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 // }
 
 sample = {Betty:"CSA", Ursula:"PMR", Mike: "Adelante"}
+console.log(sample)
+console.log(sample.Mike)
 
 function deleteFromObjectByKey(object, key) {
   var newObject = object;
