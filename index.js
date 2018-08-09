@@ -20,6 +20,8 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 //   return object
 // }
 
+sample = {Betty:"CSA", Ursula:"PMR", Mike: "Adelante"}
+
 function deleteFromObjectByKey(object, key) {
   var newObject = object;
   console.log(newObject)
@@ -28,6 +30,8 @@ function deleteFromObjectByKey(object, key) {
   return newObject;
 }
 
+deleteFromObjectByKey(sample, "Ursula")
+
 function deleteFromObjectByKey(object, key) {
-  
+
 }
