@@ -32,7 +32,7 @@ function deleteFromObjectByKey(object, key) {
   // console.log(newObject)
   console.log(object)
   // delete newObject[key]
-  return newObject;
+  // return newObject;
 }
 
 deleteFromObjectByKey(sample, "Ursula")
