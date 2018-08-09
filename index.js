@@ -25,14 +25,14 @@ console.log(sample)
 console.log(sample.Mike)
 
 function deleteFromObjectByKey(object, key) {
-    delete object[key]
-    return object
+    // delete object[key]
+    // return object
 
-  // var newObject = object;
-  // console.log(newObject)
+  var newObject = object;
+  console.log(newObject)
   console.log(object)
-  // delete newObject[key]
-  // return newObject;
+  delete newObject[key]
+  return newObject;
 }
 
 deleteFromObjectByKey(sample, "Ursula")
